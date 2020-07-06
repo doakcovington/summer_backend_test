@@ -5,9 +5,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.string "description"
       t.string "image_url"
       t.bigint "category_id"
-      t.index ["category_id"], name: "index_syllabuses_on_category_id"
       t.timestamps
     end
   end
-  add_foreign_key "syllabuses", "categories"
 end
