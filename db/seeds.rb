@@ -9,3 +9,5 @@
 hike = Category.create(name: "Hike")
 bonfire = Category.create(name: "Bonfire")
 lake = Category.create(name: "Lake")
+
+Post.create(:)
